@@ -1,72 +1,516 @@
 <!DOCTYPE html>
-
-<head>
+<html>
+  <head>
+    <title>Computer Science - UG</title>
+    <link rel='stylesheet' href='css/footer.min.css'> <!-- css for the footer -->
+    <link rel='stylesheet' href='css/style.css'/> <!-- Css for the header, menu and main body -->
     <script src = "https://kit.fontawesome.com/a79999607e.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="css/home1.css">
-</head>
 
+  </head>
+  <body>
+  
 
-<style class = "style">
-    body{
-        background-image: url('');
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-</style>
+    <div class="off-canvas-content" data-off-canvas-content>
 
-<body>
-    <header class="header">
-        <div>
+        <header class="header" role="banner">
+
+            <!-- This navs will be applied to the topbar, above all content To see additional nav styles, visit the /parts directory -->
             
-            <img src="media/comScience_logo.png" alt="comScience_logo" class="logo">
-            
-            <div class="pages">
-                <a href="home.html"> HOME </a>
-                <a href="about.html"> ABOUT US </a>
-                <a href="academics.html"> ACADEMICS </a>
-                <a href="addmissions.html"> ADMISSIONS </a>
-                <a href="research.html"> RESEARCH </a>
-                <a href="studentresources.html"> STUDENT RESOURCES </a>
-                <a href="facaultyandstaff.html"> FACULTY AND STAFF </a>
-                <a href="newsandevents.html"> NEWS AND EVENTS</a>
-                <a href="contactus.html"> CONTACT US</a>
-                <a href="alumni.html"> ALUMNI</a>
-            </div>
-      </div>
-
-    </header>
-
-
-    <img src="media/coding.jpg" alt="image 1" class="images">
-
-
-
-
-
-
-
-    
-    
-    
-    
-    
-    <footer class="footer">
-        <div class="footer">
-            <img src="media/ug pic.jpeg" alt="ug logo" class="uglogo">
-            <div class="contact-icons">
-                <span class="contact-icons">&#128222;</span>
-
-                <span class="contact-icons">&#9993;</span>
-
-            </div>
-                <div class="icons">
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-github"></i>
-                    <i class="fa-brands fa-linkedin"></i>
-
+            <div class="top-bar" id="top-bar-menu">
+                <div class="top-bar-left">
+                    <a href="https://dcs.ug.edu.gh/b">
+                        <div class="website-logo">
+                            <img src="media/ug-logo-2-crop-removebg.png" alt="UG Logo" style="width: 120px;"/>
+                            <div class="site-name-text">
+                                <div class="site-name">COMPUTER <span>SCIENCE <br>DEPARTMENT</span></div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
+
+                <div class="top-bar-right">
+                   
+                    <nav id="mega-menu-wrap" role="navigation" class="show-for-larger">
+                        <ul id="mega-menu" role="menubar">
+                            <!-- GET OUR INFO TOGETHER -->
+                            <li class="has-drop" role="presentation">
+                                <a class="top-level" href="https://www.eecs.mit.edu/academics/" target="_self"
+                                    role="menuitem" aria-haspopup="true" tabindex="0">Academics</a>
+                                <div class="droplet">
+
+                                    <!-- CHECK FOR FIRST SECTION LINKS -->
+                                    <div class="first col one">
+                                        <ul>
+                                            <li role="presentation" class="no-arrow">
+                                                <a href="https://eecseduportal.mit.edu/eduportal/who_is_teaching_what/S/2024/"
+                                                    role="menuitem" target="_blank">
+                                                    Who&#039;s Teaching What
+                                                </a>
+                                            </li>
+                                            <li role="presentation" class="no-arrow">
+                                                <a href="https://www.eecs.mit.edu/academics/subject-updates/"
+                                                    role="menuitem" target="_self">
+                                                    Subject Updates
+                                                </a>
+                                            </li>
+                                            <li role="presentation" class="no-arrow">
+                                                <a href="https://www.eecs.mit.edu/academics/iap-offerings/"
+                                                    role="menuitem" target="_self">
+                                                    IAP Offerings
+                                                </a>
+                                            </li>
+                                            <li role="presentation" class="no-arrow">
+                                                <a href="https://mitcommlab.mit.edu/eecs/" role="menuitem"
+                                                    target="_blank">
+                                                    EECS Communication Lab
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div><!--END .col -->
+
+                                    <!-- CHECK FOR 2ND SECTION LINKS -->
+                                    <div class="second col one">
+                                        <ul>
+                                            <li role="presentation" class="arrow">
+                                                <a href="https://www.eecs.mit.edu/academics/undergraduate-programs/"
+                                                    role="menuitem" target="_self">
+                                                    Undergraduate programs
+                                                </a>
+                                            </li>
+                                            <li role="presentation" class="no-arrow">
+                                                <a href="https://www.eecs.mit.edu/academics/undergraduate-programs/curriculum/"
+                                                    role="menuitem" target="_self">
+                                                    Curriculum
+                                                </a>
+                                            </li>
+                                            <li role="presentation" class="no-arrow">
+                                                <a href="https://www.eecs.mit.edu/academics/undergraduate-programs/meng-program/"
+                                                    role="menuitem" target="_self">
+                                                    MEng program
+                                                </a>
+                                            </li>
+                                            <li role="presentation" class="no-arrow">
+                                                <a href="https://www.eecs.mit.edu/academics/undergraduate-programs/opportunities/"
+                                                    role="menuitem" target="_self">
+                                                    Opportunities
+                                                </a>
+                                            </li>
+                                            <li role="presentation" class="no-arrow">
+                                                <a href="https://www.eecs.mit.edu/academics/undergraduate-programs/minor-in-computer-science/"
+                                                    role="menuitem" target="_self">
+                                                    Minor in Computer Science
+                                                </a>
+                                            </li>
+                                            <li role="presentation" class="no-arrow">
+                                                <a href="https://www.eecs.mit.edu/academics/undergraduate-programs/resources-for-current-students/"
+                                                    role="menuitem" target="_self">
+                                                    Resources for current students
+                                                </a>
+                                            </li>
+                                            <li role="presentation" class="no-arrow">
+                                                <a href="https://www.eecs.mit.edu/academics/undergraduate-programs/program-objectives-and-accreditation/"
+                                                    role="menuitem" target="_self">
+                                                    Program objectives and accreditation
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div><!--END .col -->
+                                    <!-- CHECK FOR 3RD SECTION LINKS -->
+                                    <div class="third col one">
+                                        <ul>
+                                            <li role="presentation" class="arrow">
+                                                <a href="https://www.eecs.mit.edu/academics/graduate-programs/"
+                                                    role="menuitem" target="_self">
+                                                    Graduate programs
+                                                </a>
+                                            </li>
+                                            <li role="presentation" class="no-arrow">
+                                                <a href="https://www.eecs.mit.edu/academics/graduate-programs/graduate-program-requirements/"
+                                                    role="menuitem" target="_self">
+                                                    Graduate program requirements
+                                                </a>
+                                            </li>
+                                            <li role="presentation" class="no-arrow">
+                                                <a href="https://www.eecs.mit.edu/academics/graduate-programs/admission-process/"
+                                                    role="menuitem" target="_self">
+                                                    Admission process
+                                                </a>
+                                            </li>
+                                            <li role="presentation" class="no-arrow">
+                                                <a href="https://www.eecs.mit.edu/academics/graduate-programs/degree-programs/"
+                                                    role="menuitem" target="_self">
+                                                    Degree programs
+                                                </a>
+                                            </li>
+                                            <li role="presentation" class="no-arrow">
+                                                <a href="https://www.eecs.mit.edu/academics/graduate-programs/graduate-research/"
+                                                    role="menuitem" target="_self">
+                                                    Graduate research
+                                                </a>
+                                            </li>
+                                            <li role="presentation" class="no-arrow">
+                                                <a href="https://www.eecs.mit.edu/academics/graduate-programs/funding/"
+                                                    role="menuitem" target="_self">
+                                                    Funding
+                                                </a>
+                                            </li>
+                                            <li role="presentation" class="no-arrow">
+                                                <a href="https://www.eecs.mit.edu/academics/graduate-programs/resources-for-current-students/"
+                                                    role="menuitem" target="_self">
+                                                    Resources for current students
+                                                </a>
+                                            </li>
+                                            <li role="presentation" class="no-arrow">
+                                                <a href="https://www.eecs.mit.edu/academics/graduate-programs/student-profiles/"
+                                                    role="menuitem" target="_self">
+                                                    Student profiles
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div><!--END .col -->
+                                </div><!--END .droplet -->
+                            </li><!--END .main-term -->
+                            <li class="has-drop" role="presentation">
+                                <a class="top-level" href="https://www.eecs.mit.edu/research/" target="_self"
+                                    role="menuitem" aria-haspopup="true" tabindex="0">Research</a>
+                                <div class="droplet">
+                                    <!-- CHECK FOR 3RD SECTION LINKS -->
+                                    <div class="col special">
+                                        <ul>
+                                            <li class="teaser" role="presentation">
+                                                <a href="https://www.eecs.mit.edu/research/electrical-engineering/"
+                                                    role="menuitem" target="_self">
+                                                    <div class="teaser-bg"
+                                                        style="background-image: url(https://www.eecs.mit.edu/wp-content/uploads/2021/06/EE-image@2x.jpg);">
+                                                        <span>Electrical Engineering</span>
+                                                    </div>
+                                                </a>
+                                                <p>Electrical Engineers design systems that sense, process, and
+                                                    transmit energy and information. We leverage computational,
+                                                    theoretical, and experimental tools to develop groundbreaking
+                                                    sensors and energy transducers, new physical substrates for
+                                                    computation, and the systems that address the shared challenges
+                                                    facing humanity.</p>
+                                            </li>
+                                            <li class="teaser" role="presentation">
+                                                <a href="https://www.eecs.mit.edu/research/computer-science/"
+                                                    role="menuitem" target="_self">
+                                                    <div class="teaser-bg"
+                                                        style="background-image: url(https://www.eecs.mit.edu/wp-content/uploads/2021/06/CS-image@2x.jpg);">
+                                                        <span>Computer Science</span>
+                                                    </div>
+                                                </a>
+                                                <p>Computer science deals with the theory and practice of
+                                                    algorithms, from idealized mathematical procedures to the
+                                                    computer systems deployed by major tech companies to answer
+                                                    billions of user requests per day.</p>
+                                            </li>
+                                            <li class="teaser" role="presentation">
+                                                <a href="https://www.eecs.mit.edu/research/artificial-intelligence-decision-making/"
+                                                    role="menuitem" target="_self">
+                                                    <div class="teaser-bg"
+                                                        style="background-image: url(https://www.eecs.mit.edu/wp-content/uploads/2021/06/AI-D-image@2x.jpg);">
+                                                        <span>Artificial Intelligence + Decision-making</span>
+                                                    </div>
+                                                </a>
+                                                <p>Artificial Intelligence and Decision-making combines intellectual
+                                                    traditions from across computer science and electrical
+                                                    engineering to develop techniques for the analysis and synthesis
+                                                    of systems that interact with an external world via perception,
+                                                    communication, and action; while also learning, making decisions
+                                                    and adapting to a changing environment.</p>
+                                            </li>
+
+                                            <li role="presentation" class="text-only-final">
+                                                <a href="https://www.eecs.mit.edu/research/explore-all-research-areas/"
+                                                    role="menuitem" target="_self">
+                                                    Explore all research areas
+                                                </a>
+                                            </li>
+
+                                        </ul>
+                                    </div><!--END .col -->
+                                </div><!--END .droplet -->
+                            </li><!--END .main-term -->
+                            
+                            <li class="has-drop" role="presentation">
+                                <a class="top-level" href="https://www.eecs.mit.edu/news-events/" target="_self"
+                                    role="menuitem" aria-haspopup="true" tabindex="0">News &amp; Events</a>
+                                <div class="droplet">
+
+                                    <!-- CHECK FOR FIRST SECTION LINKS -->
+                                    <div class="first col one">
+                                        <ul>
+                                            <li role="presentation" class="arrow">
+                                                <a href="https://www.eecs.mit.edu/category/news/" role="menuitem"
+                                                    target="_self">
+                                                    News
+                                                </a>
+                                            </li>
+                                            <li role="presentation" class="arrow">
+                                                <a href="https://www.eecs.mit.edu/eecs-events/" role="menuitem"
+                                                    target="_self">
+                                                    Events
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div><!--END .col -->
+                                </div><!--END .droplet -->
+                            </li><!--END .main-term -->
+                            <li class="has-drop" role="presentation">
+                                <a class="top-level" href="https://www.eecs.mit.edu/about/" target="_self"
+                                    role="menuitem" aria-haspopup="true" tabindex="0">About</a>
+                                <div class="droplet">
+
+                                    <!-- CHECK FOR FIRST SECTION LINKS -->
+                                    <div class="first col one">
+                                        <ul>
+                                            <li role="presentation" class="arrow">
+                                                <a href="https://www.eecs.mit.edu/about/departmental-history/"
+                                                    role="menuitem" target="_self">
+                                                    Departmental History
+                                                </a>
+                                            </li>
+                                            <li role="presentation" class="arrow">
+                                                <a href="https://www.eecs.mit.edu/about/departmental-organization/"
+                                                    role="menuitem" target="_self">
+                                                    Departmental Organization
+                                                </a>
+                                            </li>
+                                            <li role="presentation" class="arrow">
+                                                <a href="https://www.eecs.mit.edu/about/visiting-committee/"
+                                                    role="menuitem" target="_self">
+                                                    Visiting Committee
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div><!--END .col -->
+                                </div><!--END .droplet -->
+                            </li><!--END .main-term -->
+                        </ul><!--END .mega-menu -->
+                    </nav><!-- #mega-menu-wrap -->
+                </div>
+            </div>
+        </header>
+
+
+
+        <div class="content">
+	
+            <div class="inner-content grid-x">
+        
+                <main class="main small-12 medium-12 large-12 cell" role="main">
+                
+                    <article id="post-142" class="post-142 page type-page status-publish hentry" role="article" itemscope itemtype="http://schema.org/WebPage">
+                                        
+                        <section class="entry-content full" itemprop="text">
+                            <div class="grid-x">
+                                <div class="small-12 medium-12 large-12 cell">
+                                    
+                                    <section id="triptych-block_60d1d39e24833" class="mit-triptych block-section">
+                                        <div class="triptych-pattern" style="background-image: url(https://www.eecs.mit.edu/wp-content/uploads/2021/06/herobg.svg);"></div>	
+                                        
+                                        <div class="welcome-message-div">
+                                            
+                                            <h1>WELCOME</h1>
+                                            
+                                            <h4 style="font-size: 25px;">
+                                                Computer science is the foundation of the information technology era that we are living in.
+                                                 Therefore, if society is to make rapid economic advancements and fully benefit from information technology, computer science education is essential. 
+                                                 The study and creation of applications that enable us to use computers on a daily basis, the software systems that underpin these applications, 
+                                                 and the techniques and procedures employed to create applications and systems that function dependably, accurately, and morally are all included in computer science.
+                                                Employers who hire computer scientists expect competent programmers with knowledge of modern techniques and tools as well as the ability to apply sound engineering principles to the development, construction, and maintenance of their products.
+                                                 Computer programming is at the core of computer science.</h4>
+                                                    
+                                        </div>
+                                        
+                                        <div class="triptych-grid-wrap">
+                                            
+                                            <div class="triptych-grid">
+                                                        
+                                                <div class="triptych-cell">
+                                                    <div class="triptych-mov show-for-medium">
+                                                        <img src="media/cs_pic_2.jpeg" alt="pic 1" class="banner-image">
+                                                    </div>  
+                                                    <!-- <div class="triptych-link">
+                                                        <a href="https://www.eecs.mit.edu/?page_id=145" target="_self">Electrical Engineering</a>
+                                                    </div>                                                 -->
+                                                </div>
+                                                                
+                                                                    
+                                                <div class="triptych-cell">
+                                                    <div class="triptych-image" style="background-image: url(https://www.eecs.mit.edu/wp-content/uploads/2021/06/EECS_CS_OPT1.jpg);"></div>
+                                                    <div class="triptych-mov show-for-medium">
+                                                        <video muted loop>
+                                                            <source src="https://www.eecs.mit.edu/wp-content/uploads/2021/07/MIT_EECS_Computer_Science_LOOP.mp4" type="video/mp4">
+                                                        </video>
+                                                    </div>                                                        
+                                                    <div class="triptych-link">
+                                                        <a href="https://www.eecs.mit.edu/?page_id=146" target="_self">Computer Science</a>
+                                                    </div>
+                                                </div>
+                                                            
+                                                                    
+                                                <div class="triptych-cell">
+                                                    <div class="triptych-image" style="background-image: url(https://www.eecs.mit.edu/wp-content/uploads/2021/06/EECS_CS_sm.jpg);"></div>
+                                                    <div class="triptych-mov show-for-medium">
+                                                        <video muted loop>
+                                                            <source src="https://www.eecs.mit.edu/wp-content/uploads/2021/07/MIT_EECS_AI-D_LOOP.mp4" type="video/mp4">
+                                                        </video>
+                                                    </div>                                                        
+                                                    <div class="triptych-link">
+                                                        <a href="https://www.eecs.mit.edu/?page_id=147" target="_self">Artificial Intelligence + Decision-making</a>
+                                                    </div>                                                
+                                                </div>                                                                    
+                                            </div><!-- END .triptych-grid -->
+                                            
+                                        </div><!-- END .triptych-grid-wrap -->	
+                                                
+                                        
+                                    </section>
+                                </div>
+                            </div>
+                        </section>
+
+                    </article>
+
+                </main>
+
+            </div>
+
         </div>
+    </div>
+
+
+
+    <footer class="site-footer">
+
+        <div class="l-container site-footer__container">
+            <div class="site-footer__row site-footer__row--navigation">
+                <div class="site-footer__menu-col">
+                    <h2 class="site-footer__menu-heading">Academics</h2>
+                    <nav class="site-footer__nav" aria-label="Academics Navigation">
+                
+                        <ol  class="site-footer__nav-list">
+                            <li class="footer-one__item">
+                                <a href="https://www.harvard.edu/copyright-issue/" class="footer-one__action" data-attribute="undergraduate-courses">Undergraduate Courses</a>
+                            </li>
+                            <li class="footer-one__item">
+                                <a href="https://www.harvard.edu/security-issue/" class="footer-one__action" data-attribute="graduate-courses(MPhil Computer Science)">Graduate Courses(MPhil Computer Science)</a>
+                            </li>
+                            <li class="footer-one__item">
+                                <a href="https://trademark.harvard.edu/pages/trademark-notice" class="footer-one__action" data-attribute="graduate-courses(MSc Computer Science)">Graduate Courses(MSc Computer Science)</a>
+                            </li>
+                            <li class="footer-one__item">
+                                <a href="https://trademark.harvard.edu/pages/trademark-notice" class="footer-one__action" data-attribute="graduate-courses(PhD)">Graduate Courses(PhD)</a>
+                            </li>
+                            <li class="footer-one__item">
+                                <a href="https://trademark.harvard.edu/pages/trademark-notice" class="footer-one__action" data-attribute="student-complaint-form">Student Complaint Form</a>
+                            </li>		
+                        </ol>
+                
+                    </nav>
+                </div>
+
+                <div class="site-footer__menu-col">
+                    <h2 class="site-footer__menu-heading">Contact Us</h2>
+                    <nav  class="site-footer__nav" aria-label="Contact Us Navigation">
+                
+                        <ol  class="site-footer__nav-list">
+                            <li class="footer-two__item">
+                                <span class="contact-icons">
+                                    &#128222;  +233 501 382 035
+                                </span>
+                            </li>
+                                <br>
+                            <li>
+                                <span class="contact-icons">
+                                    &#128222;  +233 559 145 698
+                                </span>
+                            </li>
+                                <br>
+                            <li>
+                                <span class="contact-icons">
+                                    &#9993; dcs@ug.edu.gh
+                                </span>
+                            </li>
+                            </li>    		
+                        </ol>
+                
+                    </nav>
+                </div>
+
+                <div class="site-footer__menu-col">
+                    <h2 class="site-footer__menu-heading">Location <i class="fas fa map"></i></h2>
+                    <nav class="site-footer__nav" aria-label="Location Navigation"> 
+                        <ol  class="site-footer__nav-list">
+                            <li class="footer-three__item">
+                                <a href="https://www.google.com/maps/dir/5.6523661,-0.1776494/department+of+computer+science+ug/@5.6522658,-0.1857019,16z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0xfdf9c866f97cb5d:0x847b90759758b427!2m2!1d-0.183912!2d5.6545237" class="footer-three__action" data-attribute="maps-directions">
+                                    University Of Ghana, Legon Campus
+                                </a>
+                            </li>
+                            <li class="footer-three__item">
+                                <a href="https://www.google.com/maps/dir/5.6523661,-0.1776494/department+of+computer+science+ug/@5.6522658,-0.1857019,16z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0xfdf9c866f97cb5d:0x847b90759758b427!2m2!1d-0.183912!2d5.6545237" class="footer-three__action" data-attribute="maps-directions">
+                                     Opposite Mathematics Department
+                                </a>
+                            </li>		
+                        </ol>
+                    </nav>
+                </div>
+
+            </div>
+    
+            <div class="site-footer__row site-footer__row--secondary">
+                <div class="site-footer__copyright">
+                    <p>© 2023 All rights reserved</p>
+                </div>
+                <div class="site-footer__logo ">
+                    <a href="https://www.ug.edu.gh/">
+                        <img src="media/ug-full-logo-transparent.png" alt="University of Ghana" style="height: 200px; width: 300px;"/>
+                    </a>
+                </div>
+                <div class="site-footer__social ">
+                    <div class="social-follow">
+    
+                        <ul class="social-follow__list">
+                            <li class="social-follow__item social-follow__item--instagram">
+                                <a href="https://www.instagram.com/explore/locations/468119891/university-of-ghana/" class="social-follow__anchor" rel="me noopener" title="Instagram">
+                                    <span>Instagram</span>
+                                    <img src="media/Instagram-1.png" alt="Instagram" aria-hidden="true"/>
+                                </a>
+                            </li>
+                            <li class="social-follow__item social-follow__item--linkedin">
+                                <a href="https://www.linkedin.com/company/university-of-ghana" class="social-follow__anchor" rel="me noopener" title="LinkedIn">
+                                    <span>LinkedIn</span>
+                                    <img src="media/Linkedin-1.png" alt="LinkedIn" aria-hidden="true"/>
+                                </a>
+                            </li>
+                            <li class="social-follow__item social-follow__item--facebook">
+                                <a href="https://web.facebook.com/University-of-GhanaDepartment-of-Computer-Science-116786389698948/?ref=search&__tn__=%2Cd%2CP-R&eid=ARBBAU8wKSNVs2fNZimGERUZJeac3TbmQsaZDsz4ZoEqZ95bzGZf3siMET6V1B1NuOzqLZwhXCqqrtIt&_rdc=1&_rdr" class="social-follow__anchor" rel="me noopener" title="Facebook">
+                                    <span>Facebook</span>
+                                    <img src="media/facebook.png" alt="Facebook" aria-hidden="true"/>
+                                </a>
+                            </li>
+                            <li class="social-follow__item social-follow__item--youtube">
+                                <a href="https://www.youtube.com/@universityofghana" class="social-follow__anchor" rel="me noopener" title="YouTube">
+                                    <span>YouTube</span>
+                                    <img src="media/youtube-1.png" alt="YouTube" aria-hidden="true"/>
+                                </a>
+                            </li>
+                            <li class="social-follow__item social-follow__item--twitter">
+                                <a href="https://twitter.com/univofghana" class="social-follow__anchor" rel="me noopener" title="Twitter">
+                                    <span>Twitter</span>
+                                    <img src="media/x_logo.png" alt="Twitter" aria-hidden="true" style="height: 70px; width: 120px;"/>
+                                </a>
+                            </li>
+                        </ul>
+    
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    
     </footer>
-</body>
+  </body>
 </html>
