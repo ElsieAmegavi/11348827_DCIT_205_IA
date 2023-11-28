@@ -443,4 +443,15 @@ screen and (min-width:62.0625em) {
 
 .has-drop:hover .dropbtn {background-color: #3e8e41;}
 
-
+.page-title {
+    text-align: center;
+    font-family: Canela Deck Web;
+    font-size: 56px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -.1px;
+    padding-bottom: 24px;
+    background-color: #110c45;
+    color: #f1f1f1;
+}

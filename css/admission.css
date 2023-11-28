@@ -1,66 +1,71 @@
-.style{
-    background-image: url('');
-    background-size: cover;
-    background-position: center ;
-    padding: 20px;
+.pb-10{
+    padding-bottom: 10px;
 }
 
-.header{
-  background-color:  rgb(24, 24, 72);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.justify-content-center{
+    justify-content: center !important;
+}
+
+.d-flex{
+    display: flex !important; flex-wrap: wrap;
+}
+
+.row{
+    flex-wrap: wrap;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+*,*::before, *::after{
+    box-sizing: border-box;
+}
+
+@media (min-width: 768px){
+    .col-md {
+        flex: 0 0 50%;
+        max-width: 50%;
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: -20px;
+        padding-left: 35px;
+    }
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: 270px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+   
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+element.style{
     align-items: center;
 }
 
-.pages a {
-    text-transform: uppercase;
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-    font-size: 14px;
-    color: aliceblue;
-    transition: 0.2s ease-in;
+@media (min-width: 768px){
+    .col-md{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .col-md-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
 }
 
-.pages a:hover {
-    color: #f2f200 ;
-}
-
-a {
-    text-decoration: none;
-}
-
-.logo {
-     width: 700px;
-     height: 200px;
-    text-shadow: black;
-}
-
-.footer{
-    background-color: rgb(24, 24, 72);
+.content-admin{
     display: flex;
     flex-direction: row;
-    justify-content:flex-end;
-    position: relative;
-
-    
-}
-
-.icons{
-    display: flex;
-    flex-direction: row;
-    color:blanchedalmond;
-    justify-content:space-between;
-    margin-left:100 ;
-    margin-right: 100px;
-    margin-bottom: 5px;
-    margin-top: 30px;
-    padding: 25px;
-    size: 800px;
-}
-
-.images{
-    width: 1500px;
-    height: 400px;
+    justify-content:space-between ;
 }
