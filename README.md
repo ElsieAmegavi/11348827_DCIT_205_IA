@@ -43,25 +43,25 @@ Computer Science department.
 ![Screenshot](media)
 
 **ACADEMICS PAGE**
-![Screenshot](media)
+![Screenshot](media/academics-page-screenshot.png)
 
 **ADMISSION PAGE**
-![Screenshot](media)
+![Screenshot](media/admission-page-screenshot.png)
 
 **ABOUT US PAGE**
-![Screenshot](media)
+![Screenshot](media/about-us-page-screenshot.png)
 
 **STUDENT RESOURCES PAGE**
-![Screenshot](media)
+![Screenshot](media/student-resources-page-screenshot.png)
 
 **STUDENT COMPLAINT FORM PAGE**
-![Screenshot](media)
+![Screenshot](media/complaint-form-page-screenshot.png)
 
 **FACULTY AND STAFF PAGE**
-![Screenshot](media)
+![Screenshot](media/faculty-and-staff-page-screenshot.png)
 
 **NEWS AND EVENTS PAGE**
-![Screenshot](media)
+![Screenshot](media/news-and-events-page-screenshot.png)
 
 **RESEARCH PAGE**
 ![Screenshot](media/research-page-screenshot.png)
