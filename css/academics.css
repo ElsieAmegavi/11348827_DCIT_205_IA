@@ -34,3 +34,8 @@
     overflow: hidden;
     background-color: #f1f1f1;
   }
+
+.sub-content{
+  padding-left: 80px;
+  padding-right: 80px;
+}
