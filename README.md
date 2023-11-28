@@ -40,7 +40,7 @@ Computer Science department.
 
 ## Screenshots of each page of your website.
 **HOME PAGE**
-![Screenshot](media)
+![Screenshot](media/homepage-screenshot.png)
 
 **ACADEMICS PAGE**
 ![Screenshot](media/academics-page-screenshot.png)

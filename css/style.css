@@ -416,6 +416,128 @@ screen and (min-width:62.0625em) {
     overflow: hidden
 }
 
+
+.triptych-link {
+    background: rgba(0, 0, 0, .4);
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 36px;
+    padding: 20px 60px 20px 20px;
+    z-index: 4;
+}
+
+.triptych-link a {
+    color: #fff;
+    padding-right: 40px;
+    display: inline;
+    position: relative;
+    background: url(../images/arrow-white.svg) no-repeat 0 0;
+    background-size: 30px;
+    background-position: right 70%
+}
+
+.triptych-link i {
+    padding: 0 0 0 16px;
+    font-size: 36px;
+    position: relative
+}
+
+.triptych-mov {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2
+}
+
+.triptych-mov video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: none;
+    max-height: 350px
+}
+
+@media print,
+screen and (min-width:62.0625em) {
+    .triptych-mov video {
+        max-height: 290px
+    }
+}
+
+@media screen and (max-width:47.99875em) {
+    .show-for-medium {
+        display: none !important
+    }
+}
+
+@media screen and (max-width:47.99875em),
+screen and (min-width:62.0625em) {
+    .show-for-medium-only {
+        display: none !important
+    }
+}
+
+
+
+@media (prefers-reduced-motion) {
+    .mit-triptych {
+        animation: none;
+        background: linear-gradient(90deg, #b31e8d, #652d90 51%, #00819a);
+        background-size: cover
+    }
+
+    .triptych-mov {
+        display: none
+    }
+
+    .triptych-cell:hover .triptych-image {
+        opacity: 1
+    }
+
+    .triptych-image {
+        display: block
+    }
+}
+
+
+.triptych-image,
+.triptych-link {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover
+}
+
+
+@media (prefers-reduced-motion) {
+    .mit-triptych {
+        animation: none;
+        background: linear-gradient(90deg, #b31e8d, #652d90 51%, #00819a);
+        background-size: cover
+    }
+
+    .triptych-mov {
+        display: none
+    }
+
+    .triptych-cell:hover .triptych-image {
+        opacity: 1
+    }
+
+    .triptych-image {
+        display: block
+    }
+}
+
+
 .banner-image{
     width: calc(100% - 10px);
     height: 290px; 
@@ -454,4 +576,15 @@ screen and (min-width:62.0625em) {
     padding-bottom: 24px;
     background-color: #110c45;
     color: #f1f1f1;
+}
+
+
+.center-div {
+    margin: auto;
+    /* width: 50%; */
+    padding: 10px;
+}
+
+.rounded-corner {
+    border-radius: 25px;
 }
