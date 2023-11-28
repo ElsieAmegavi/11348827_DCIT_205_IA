@@ -40,13 +40,35 @@ Computer Science department.
 
 ## Screenshots of each page of your website.
 **HOME PAGE**
+![Screenshot](media)
 
+**ACADEMICS PAGE**
+![Screenshot](media)
+
+**ADMISSION PAGE**
+![Screenshot](media)
 
 **ABOUT US PAGE**
+![Screenshot](media)
+
+**STUDENT RESOURCES PAGE**
+![Screenshot](media)
+
+**STUDENT COMPLAINT FORM PAGE**
+![Screenshot](media)
+
+**FACULTY AND STAFF PAGE**
+![Screenshot](media)
+
+**NEWS AND EVENTS PAGE**
+![Screenshot](media)
+
+**RESEARCH PAGE**
+![Screenshot](media/research-page-screenshot.png)
 
 
 **CONTACT US PAGE**
-
+![Screenshot](media/contactus-page-screenshot.png)
 
 ## What you have learned from the project.
 1. **Integrated Web Technologies:** - A unified and feature-rich computer science department website was created by applying HTML for content organization, CSS for responsive design, and JavaScript for dynamic interactivity.
