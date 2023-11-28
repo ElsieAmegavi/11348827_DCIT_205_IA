@@ -38,7 +38,7 @@ Computer Science department.
 9. Open **home.html** file in the browser to access the home page.
 
 
-## Screenshots of each page of your website.
+## Screenshots of each page of the website.
 **HOME PAGE**
 ![Screenshot](media/homepage-screenshot.png)
 
